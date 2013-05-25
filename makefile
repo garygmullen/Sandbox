@@ -1,5 +1,5 @@
-hello: hello.c
-	cc -o hello hello.c
+../obj/hello: hello.c
+	cc -o ../obj/hello hello.c
 
 clean:
-	rm hello
+	rm ../obj/hello
