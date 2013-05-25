@@ -1,7 +1,2 @@
-Don't Panic!!
-It's not time to panic yet.
-Another useless change
+Object files should go outside of the build tree, to prevent "git status" from stat'ing them.
 
-Test message to check SSH keys
-
-Another test 
