@@ -14,5 +14,5 @@ int main(
 {
 	printf ("simple test app\n" );
 	printf ("got %d\n", returnNumber( 5 ) );
-    return ;
+    return 0;
 }
