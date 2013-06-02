@@ -7,5 +7,8 @@
 ../obj/hello: hello.c
 	cc -o ../obj/hello hello.c
 
+../obj/yourtest: yourtest.c
+	cc -o ../obj/yourtest yourtest.c
+
 clean:
 	rm ../obj/hello
